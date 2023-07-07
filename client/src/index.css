@@ -1,0 +1,54 @@
+body {
+    background-image: #000; 
+    color: #fff; 
+    background-image: url("../src/images/background_1.png"); 
+}
+
+.white-text {
+    color: white;
+  }
+  
+.nav {
+    color:#fff
+}
+
+.card-title {
+    background-color: #000;
+    color: #fff; 
+}
+
+.card {
+    background-color: #000;
+    color: #fff; 
+}
+
+.card-conditioner {
+    background-color: #000;
+    color: #fff; 
+}
+
+.card-header {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.card-subtitle {
+    color: #000; 
+    color: #fff; 
+}
+
+.icon {
+    background-color: #000;
+    color: #fff; 
+}
+
+.button {
+    background-color: #000; 
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
