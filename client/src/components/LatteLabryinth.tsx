@@ -32,7 +32,7 @@ const sections = [
 ];
 
 const mainFeaturedPost = {
-  title: "Latte Labyrinth",
+  title: "Lilith's Latte Labyrinth",
   description:
     "Welcome to Lilith's Latte Labyrinth, our mission is to provide users with a platform to discover hidden gems among local coffee shops, offering an alternative to popular chains such as Starbucks or Coffee Bean. The project aims to cater to individuals seeking the charm and authenticity of locally-owned and operated cafes. The vision is to create an entertaining experience that combines a spooky twist with a touch of classic elegance.",
   image: gothicseating,
