@@ -1,5 +1,3 @@
-Certainly! Here's an updated version of the README.md file with instructions on how to start the application using the `deploy.sh` script:
-
 # Lilith's Latte Labyrinth
 
 ## Project Aesthetic: Victorian Gothic Inspiration
