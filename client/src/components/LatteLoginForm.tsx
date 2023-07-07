@@ -11,17 +11,23 @@ type Styles = {
 };
 
 export default function LatteLoginForm({ setUser }: Props) {
-  const [formData, setFormData] = useState<UserType>({ email: "", password: "" });
+  const [formData, setFormData] = useState<UserType>({
+    email: "",
+    password: "",
+  });
   const [message, setMessage] = useState<string>("");
   const [open, setOpen] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const { data, error } = await userAPI.login(formData.email, formData.password);
+      const { data, error } = await userAPI.login(
+        formData.email || "",
+        formData.password || ""
+      );
       if (error) {
         setMessage(error);
-      } else {
+      } else if (data) {
         setUser(data);
         setMessage("Successful Latte Log In");
         handleClose();

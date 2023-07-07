@@ -12,6 +12,7 @@ import userAPI from "../lib/userAPI";
 
 type Props = {};
 
+// eslint-disable-next-line no-empty-pattern
 export default function RegisterForm({}: Props) {
   const [open, setOpen] = useState(false);
   const [formData, setFormData] = useState<UserType | null>(null);
