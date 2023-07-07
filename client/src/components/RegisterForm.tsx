@@ -10,7 +10,7 @@ import {
 import UserType from "../types/auth";
 import userAPI from "../lib/userAPI";
 
-type Props = {};
+type Props = object;
 
 // eslint-disable-next-line no-empty-pattern
 export default function RegisterForm({}: Props) {

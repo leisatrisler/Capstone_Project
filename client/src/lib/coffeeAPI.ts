@@ -4,7 +4,7 @@ import { AxiosResponse } from 'axios';
 import CoffeeType from '../types/coffee';
 import UserType from '../types/auth';
 
-const coffeeEndpoint: string = '/coffee';
+const coffeeEndpoint = '/coffee';
 
 async function get(): Promise<APIResponse<CoffeeType[]> > {
     let error;
